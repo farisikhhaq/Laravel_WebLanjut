@@ -1,6 +1,10 @@
 <?php
 
+// use App\Http\Controllers\AboutController;
+// use App\Http\Controllers\ArticleController;
+// use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,15 +17,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::get('/', function () {
-    echo "Selamat Datang";
+Route::get('/', [PageController::class, 'index']);
+
+Route::prefix('/')->group(function () {
+    Route::get('about', [PageController::class, 'about']);
+    Route::get('articles/{id}', [PageController::class, 'articles']);
 });
-Route::get('/about', function () {
-    echo "Nama : Faris Ikhlasul Haq , Nim : 1941720062";
-});
-Route::get('/articles/{id}', function ($id) {
-    echo "Halaman dengan artikel dengan id $id";
-});
+// Route::get('/', [HomeController::class, 'index']);
+// Route::get('/about', [AboutController::class, 'index']);
+// Route::get('/articles/{id}', [ArticleController::class, 'index']);
