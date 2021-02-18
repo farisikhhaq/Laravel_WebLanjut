@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 class AboutController extends Controller
 {
     //
-    public function index (){
-        return "Nama : Faris Ikhlasul Haq , Nim : 1941720062";
+    public function index(){
+        return "Ini Merupakan Halaman About, Tapi Pakai Controller Berbeda Ya";
     }
 
 }
