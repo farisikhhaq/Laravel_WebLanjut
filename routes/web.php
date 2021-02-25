@@ -3,6 +3,7 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ShelfController;
 use Illuminate\Support\Facades\Route;
 use Symfony\Component\Routing\Loader\Configurator\RouteConfigurator;
 
@@ -36,3 +37,11 @@ use Symfony\Component\Routing\Loader\Configurator\RouteConfigurator;
 // Route::get('about', [AboutController::class, 'index']);
 
 // Route::get('contact/{no}', [ContactController::class, 'index']);
+
+Route::get('/', [ShelfController::class, 'index']);
+
+Route::prefix('/')->group(function () {
+    Route::get('/preview', [ShelfController::class, 'preview']);
+    Route::get('/team', [ShelfController::class, 'team']);
+    Route::get('/contact', [ShelfController::class, 'contact']);
+});

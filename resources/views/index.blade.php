@@ -164,10 +164,17 @@ http://www.tooplate.com/view/2092-shelf
         </div>
         
         <!-- load JS files -->
-        <script src="{{asset('assets/js/jquery-1.11.3.min.js')}}"></script>         <!-- jQuery (https://jquery.com/download/) -->
-        <script src="{{asset('assets/js/popper.min.js')}}"></script>                <!-- Popper (https://popper.js.org/) -->
-        <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>             <!-- Bootstrap (https://getbootstrap.com/) -->
+<<<<<<< master
+        <script src="{{asset('assets/js/jquery-1.11.3.min.js')}}"></script>         
+        <script src="{{asset('assets/js/popper.min.js')}}"></script>              
+        <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>            
         <script>      
+=======
+        <script src="{{ asset('assets/js/jquery-1.11.3.min.js')}}"></script>        
+        <script src="{{ asset('assets/js/popper.min.js')}}"></script>                
+        <script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>             
+        <script>     
+>>>>>>> master
        
             $(document).ready(function(){
                 

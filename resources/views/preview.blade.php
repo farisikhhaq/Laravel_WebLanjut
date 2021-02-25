@@ -14,10 +14,14 @@ http://www.tooplate.com/view/2092-shelf
     <title>SHELF - Your Online Bookstore</title>
 
     <!-- load stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="{{asset('assets/font-awesome-4.7.0/css/font-awesome.min.css')}}">                <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="{{asset('assets/css/tooplate-style.css')}}">                                   <!-- Templatemo style -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
+    <link rel="stylesheet" href="{{asset('assets/font-awesome-4.7.0/css/font-awesome.min.css')}}">             
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">                                      
+
+    <link rel="stylesheet" href="{{asset('assets/css/tooplate-style.css')}}">                                   
+
+    <link rel="stylesheet" href="{{asset('assets/css/tooplate-style.css')}}">                                  
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -117,10 +121,16 @@ http://www.tooplate.com/view/2092-shelf
         </div>
         
         <!-- load JS files -->
-        <script src="{{asset('assets/js/jquery-1.11.3.min.js')}}"></script>         <!-- jQuery (https://jquery.com/download/) -->
-        <script src="{{asset('assets/js/popper.min.js')}}"></script>                <!-- Popper (https://popper.js.org/) -->
-        <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>             <!-- Bootstrap (https://getbootstrap.com/) -->
+
+        <script src="{{asset('assets/js/jquery-1.11.3.min.js')}}"></script>         
+        <script src="{{asset('assets/js/popper.min.js')}}"></script>                
+        <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>             
         <script>    
+        <script src="{{ asset('assets/js/jquery-1.11.3.min.js')}}"></script>         
+        <script src="{{ asset('assets/js/popper.min.js')}}"></script>               
+        <script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>             z
+        <script>     
+
        
             $(document).ready(function(){
                 
