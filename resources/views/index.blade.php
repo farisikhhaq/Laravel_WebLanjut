@@ -15,9 +15,9 @@ http://www.tooplate.com/view/2092-shelf
 
     <!-- load stylesheets -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/tooplate-style.css">                                   <!-- Templatemo style -->
+    <link rel="stylesheet" href="{{asset('assets/font-awesome-4.7.0/css/font-awesome.min.css')}}">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" href="{{asset('assets/css/tooplate-style.css')}}">                                   <!-- Templatemo style -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -164,9 +164,9 @@ http://www.tooplate.com/view/2092-shelf
         </div>
         
         <!-- load JS files -->
-        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
-        <script src="js/popper.min.js"></script>                <!-- Popper (https://popper.js.org/) -->
-        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap (https://getbootstrap.com/) -->
+        <script src="{{ asset('assets/js/jquery-1.11.3.min.js')}}"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="{{ asset('assets/js/popper.min.js')}}"></script>                <!-- Popper (https://popper.js.org/) -->
+        <script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>             <!-- Bootstrap (https://getbootstrap.com/) -->
         <script>     
        
             $(document).ready(function(){
