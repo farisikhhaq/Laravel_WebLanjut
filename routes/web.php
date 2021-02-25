@@ -26,13 +26,13 @@ use Symfony\Component\Routing\Loader\Configurator\RouteConfigurator;
 // Route::get('/about', [AboutController::class, 'index']);
 // Route::get('/articles/{id}', [ArticleController::class, 'index']);
 
-Route::get('home', [HomeController::class, 'index']);
+// Route::get('home', [HomeController::class, 'index']);
 
-Route::prefix('home')->group(function () {
-    Route::get('/products', [HomeController::class, 'products']);
-    Route::get('/news/{id}', [HomeController::class, 'news']);
-    Route::get('/program', [HomeController::class, 'program']);
-});
-Route::get('about', [AboutController::class, 'index']);
+// Route::prefix('home')->group(function () {
+//     Route::get('/products', [HomeController::class, 'products']);
+//     Route::get('/news/{id}', [HomeController::class, 'news']);
+//     Route::get('/program', [HomeController::class, 'program']);
+// });
+// Route::get('about', [AboutController::class, 'index']);
 
-Route::get('contact/{no}', [ContactController::class, 'index']);
+// Route::get('contact/{no}', [ContactController::class, 'index']);
