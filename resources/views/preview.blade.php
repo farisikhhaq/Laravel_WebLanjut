@@ -59,7 +59,7 @@ http://www.tooplate.com/view/2092-shelf
                     
                 <section class="row tm-item-preview">
                     <div class="col-md-6 col-sm-12 mb-md-0 mb-5">
-                        <img src="img/image-05-preview.jpg" alt="Image" class="img-fluid tm-img-center-sm">
+                        <img src="assets/img/image-05-preview.jpg" alt="Image" class="img-fluid tm-img-center-sm">
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <h2 class="tm-blue-text tm-margin-b-p">Mauris cursus turpis</h2>
@@ -68,7 +68,7 @@ http://www.tooplate.com/view/2092-shelf
                         <p class="tm-margin-b-p">Nunc vulputate placerat pulvinar. Integer ornare, enim et vestibulum mattis, dolor lacus congue sapien, eget tempor sapien est ut mauris.</p>
                         <p class="tm-blue-text tm-margin-b-s">Categories: <a href="#" class="tm-blue-text">New Story</a>, <a href="#" class="tm-blue-text">Epic</a>, <a href="#" class="tm-blue-text">Popular</a></p>
                         <p class="tm-blue-text tm-margin-b-s">Views: 10,890</p>
-                        <p class="tm-blue-text tm-margin-b">Rating: <img src="img/star.png" alt="Star image"> <img src="img/star.png" alt="Star image"> <img src="img/star.png" alt="Star image"> <img src="img/star.png" alt="Star image"></p>
+                        <p class="tm-blue-text tm-margin-b">Rating: <img src="assets/img/star.png" alt="Star image"> <img src="assets/img/star.png" alt="Star image"> <img src="assets/img/star.png" alt="Star image"> <img src="assets/img/star.png" alt="assets/Star image"></p>
                         <a href="#" class="tm-btn tm-btn-gray tm-margin-r-20 tm-margin-b-s">Preview</a><a href="#" class="tm-btn tm-btn-blue">Download</a>
                     </div>
                 </section>
@@ -78,7 +78,7 @@ http://www.tooplate.com/view/2092-shelf
                         <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item mb-5">
                             <a href="preview.html">
                                 <div class="tm-gallery-item-overlay">
-                                    <img src="img/image-06.jpg" alt="Image" class="img-fluid tm-img-center">
+                                    <img src="assets/img/image-06.jpg" alt="Image" class="img-fluid tm-img-center">
                                 </div>
                                 <p class="tm-figcaption no-pad-b">Suspendisse suscipit</p>
                             </a>
@@ -86,7 +86,7 @@ http://www.tooplate.com/view/2092-shelf
                         <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item mb-5">
                             <a href="preview.html">
                                 <div class="tm-gallery-item-overlay">
-                                    <img src="img/image-03.jpg" alt="Image" class="img-fluid tm-img-center">
+                                    <img src="assets/img/image-03.jpg" alt="Image" class="img-fluid tm-img-center">
                                 </div>
                                 <p class="tm-figcaption no-pad-b">Cras non augue</p>
                             </a>
@@ -94,7 +94,7 @@ http://www.tooplate.com/view/2092-shelf
                         <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item mb-5">
                             <a href="preview.html">
                                 <div class="tm-gallery-item-overlay">
-                                    <img src="img/image-08.jpg" alt="Image" class="img-fluid tm-img-center">
+                                    <img src="assets/img/image-08.jpg" alt="Image" class="img-fluid tm-img-center">
                                 </div>
                                 <p class="tm-figcaption no-pad-b">Vivamus facilisis</p>
                             </a>
@@ -102,7 +102,7 @@ http://www.tooplate.com/view/2092-shelf
                         <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item mb-5">
                             <a href="preview.html">
                                 <div class="tm-gallery-item-overlay">
-                                    <img src="img/image-05.jpg" alt="Image" class="img-fluid tm-img-center">
+                                    <img src="assets/img/image-05.jpg" alt="Image" class="img-fluid tm-img-center">
                                 </div>
                                 <p class="tm-figcaption no-pad-b">Quisque velit</p>
                             </a>

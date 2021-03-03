@@ -64,7 +64,7 @@ http://www.tooplate.com/view/2092-shelf
                             <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
                                 <a href="preview.html">
                                     <div class="tm-gallery-item-overlay">
-                                        <img src="img/image-01.jpg" alt="Image" class="img-fluid tm-img-center">
+                                        <img src="assets/img/image-01.jpg" alt="Image" class="img-fluid tm-img-center">
                                     </div>
                                     
                                     <p class="tm-figcaption">Nam vitae odio</p>
@@ -73,7 +73,7 @@ http://www.tooplate.com/view/2092-shelf
                             <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
                                 <a href="preview.html">
                                     <div class="tm-gallery-item-overlay">
-                                        <img src="img/image-02.jpg" alt="Image" class="img-fluid tm-img-center">
+                                        <img src="assets/img/image-02.jpg" alt="Image" class="img-fluid tm-img-center">
                                     </div>
                                     <p class="tm-figcaption">Integer ornare</p>
                                 </a>
@@ -81,7 +81,7 @@ http://www.tooplate.com/view/2092-shelf
                             <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
                                 <a href="preview.html">
                                     <div class="tm-gallery-item-overlay">
-                                        <img src="img/image-03.jpg" alt="Image" class="img-fluid tm-img-center">
+                                        <img src="assets/img/image-03.jpg" alt="Image" class="img-fluid tm-img-center">
                                     </div>
                                     <p class="tm-figcaption">Cras non augue</p>
                                 </a>
@@ -89,7 +89,7 @@ http://www.tooplate.com/view/2092-shelf
                             <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
                                 <a href="preview.html">
                                     <div class="tm-gallery-item-overlay">
-                                        <img src="img/image-04.jpg" alt="Image" class="img-fluid tm-img-center">
+                                        <img src="assets/img/image-04.jpg" alt="Image" class="img-fluid tm-img-center">
                                     </div>
                                     <p class="tm-figcaption">Dolor lacus</p>
                                 </a>
@@ -97,7 +97,7 @@ http://www.tooplate.com/view/2092-shelf
                             <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
                                 <a href="preview.html">
                                     <div class="tm-gallery-item-overlay">
-                                        <img src="img/image-05.jpg" alt="Image" class="img-fluid tm-img-center">
+                                        <img src="assets/img/image-05.jpg" alt="Image" class="img-fluid tm-img-center">
                                     </div>
                                     <p class="tm-figcaption">Quisque velit</p>
                                 </a>
@@ -105,7 +105,7 @@ http://www.tooplate.com/view/2092-shelf
                             <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
                                 <a href="preview.html">
                                     <div class="tm-gallery-item-overlay">
-                                        <img src="img/image-06.jpg" alt="Image" class="img-fluid tm-img-center">
+                                        <img src="assets/img/image-06.jpg" alt="Image" class="img-fluid tm-img-center">
                                     </div>
                                     <p class="tm-figcaption">Suspendisse suscipit</p>
                                 </a>
@@ -113,7 +113,7 @@ http://www.tooplate.com/view/2092-shelf
                             <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
                                 <a href="preview.html">
                                     <div class="tm-gallery-item-overlay">
-                                        <img src="img/image-07.jpg" alt="Image" class="img-fluid tm-img-center">
+                                        <img src="assets/img/image-07.jpg" alt="Image" class="img-fluid tm-img-center">
                                     </div>
                                     <p class="tm-figcaption">Facilisis justo</p>
                                 </a>
@@ -121,7 +121,7 @@ http://www.tooplate.com/view/2092-shelf
                             <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
                                 <a href="preview.html">
                                     <div class="tm-gallery-item-overlay">
-                                        <img src="img/image-08.jpg" alt="Image" class="img-fluid tm-img-center">
+                                        <img src="assets/img/image-08.jpg" alt="Image" class="img-fluid tm-img-center">
                                     </div>
                                     <p class="tm-figcaption">Vivamus facilisis</p>
                                 </a>
@@ -163,17 +163,17 @@ http://www.tooplate.com/view/2092-shelf
         </div>
         
         <!-- load JS files -->
-<<<<<<< master
+
         <script src="{{asset('assets/js/jquery-1.11.3.min.js')}}"></script>         
         <script src="{{asset('assets/js/popper.min.js')}}"></script>              
         <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>            
         <script>      
-=======
+
         <script src="{{ asset('assets/js/jquery-1.11.3.min.js')}}"></script>        
         <script src="{{ asset('assets/js/popper.min.js')}}"></script>                
         <script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>             
         <script>     
->>>>>>> master
+
        
             $(document).ready(function(){
                 
