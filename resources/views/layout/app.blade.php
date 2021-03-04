@@ -26,8 +26,26 @@ http://www.tooplate.com/view/2092-shelf
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
 </head>
-
     <body>
+        <header class="tm-site-header">
+            <h1 class="tm-site-name">Shelf</h1>
+            <p class="tm-site-description">Your Online Bookstore</p>
+            
+            <nav class="navbar navbar-expand-md tm-main-nav-container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tmMainNav" aria-controls="tmMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                </button>
+        
+                <div class="collapse navbar-collapse tm-main-nav" id="tmMainNav">
+                    <ul class="nav nav-fill tm-main-nav-ul">
+                        <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/preview">Catalogs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/team">Our Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         @yield('content')
     </body>
     </html>

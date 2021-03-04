@@ -1,27 +1,6 @@
 @extends('layout.app')
 @section('content')
         <div class="container">
-            <header class="tm-site-header">
-                <h1 class="tm-site-name">Shelf</h1>
-                <p class="tm-site-description">Your Online Bookstore</p>
-                
-                <nav class="navbar navbar-expand-md tm-main-nav-container">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tmMainNav" aria-controls="tmMainNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="fa fa-bars"></i>
-                    </button>
-
-                    <div class="collapse navbar-collapse tm-main-nav" id="tmMainNav">
-                        <ul class="nav nav-fill tm-main-nav-ul">
-                            <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/preview">Catalogs</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/team">Our Team</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                
-            </header>
-            
             <div class="tm-main-content">
                 <section class="tm-margin-b-l">
                     <header>
