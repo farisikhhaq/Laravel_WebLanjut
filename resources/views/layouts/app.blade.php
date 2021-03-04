@@ -17,7 +17,9 @@ http://www.tooplate.com/view/2092-shelf
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="{{asset('assets/font-awesome-4.7.0/css/font-awesome.min.css')}}">                <!-- Font Awesome -->
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="{{asset('assets/css/tooplate-style.css')}}">                                   <!-- Templatemo style -->
+    <link rel="stylesheet" href="{{asset('assets/css/tooplate-style.css')}}">         
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- Templatemo style -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,10 +44,12 @@ http://www.tooplate.com/view/2092-shelf
                         <li class="nav-item"><a class="nav-link" href="/preview">Catalogs</a></li>
                         <li class="nav-item"><a class="nav-link" href="/team">Our Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/user">User</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
         @yield('content')
+        <script src="{{ asset('js/app.js')}}"></script>
     </body>
     </html>

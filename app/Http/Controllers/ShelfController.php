@@ -18,4 +18,8 @@ class ShelfController extends Controller
     public function contact(){
         return view('contact');
     }
+    // public function DB(){
+    //     $mahasiswa = DB::table('listuser')->get();
+    //     return view('daftaruser',['listuser' => $listuser]);
+    // }
 }

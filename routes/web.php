@@ -3,6 +3,7 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\ShelfController;
 use Illuminate\Support\Facades\Route;
 use Symfony\Component\Routing\Loader\Configurator\RouteConfigurator;
@@ -45,3 +46,6 @@ Route::prefix('/')->group(function () {
     Route::get('/team', [ShelfController::class, 'team']);
     Route::get('/contact', [ShelfController::class, 'contact']);
 });
+Route::get('/user', [PostController::class, 'index']);
+Route::get('posts/{slug}', [PostController::class, 'show'])
+    ->name('posts.show');

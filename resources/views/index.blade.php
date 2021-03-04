@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 @section('content')
         <div class="container">
             <div class="tm-main-content">
@@ -118,20 +118,16 @@
         <script src="{{asset('assets/js/popper.min.js')}}"></script>              
         <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>            
         <script>      
-
         <script src="{{ asset('assets/js/jquery-1.11.3.min.js')}}"></script>        
         <script src="{{ asset('assets/js/popper.min.js')}}"></script>                
         <script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>             
         <script>     
-
        
             $(document).ready(function(){
                 
                 // Update the current year in copyright
                 $('.tm-current-year').text(new Date().getFullYear());
-
             });
-
         </script>             
 
 @endsection
