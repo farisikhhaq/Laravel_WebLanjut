@@ -6,15 +6,23 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    //
-    public function index(){
-        return "Ini merupakan Halaman Awal Website ini menggunankan Home Controller";
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
     }
 
-    public function products(){
-        return "Website Masih Tahap Pembangunan, Tapi Ini Merupakan Halamn Products Ya";
-    }
-    public function news($id){
-        return "Anda Berada Halaman Berita Dengan Tema <b> $id </b> Selamat Mendapat Ilmu Baru Ya";
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function index()
+    {
+        return view('home');
     }
 }
