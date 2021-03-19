@@ -1,12 +1,14 @@
 <?php
 
-use App\Http\Controllers\AboutController;
-use App\Http\Controllers\ContactController;
-use App\Http\Controllers\HomeController;
+// use App\Http\Controllers\AboutController;
+// use App\Http\Controllers\ContactController;
+// use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ShelfController;
 use Illuminate\Support\Facades\Route;
-use Symfony\Component\Routing\Loader\Configurator\RouteConfigurator;
+use Illuminate\Support\Facades\Auth;
+
+// use Symfony\Component\Routing\Loader\Configurator\RouteConfigurator;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,6 +41,7 @@ use Symfony\Component\Routing\Loader\Configurator\RouteConfigurator;
 
 // Route::get('contact/{no}', [ContactController::class, 'index']);
 
+
 Route::get('/', [ShelfController::class, 'index']);
 
 Route::prefix('/')->group(function () {
@@ -49,18 +52,7 @@ Route::prefix('/')->group(function () {
 Route::get('/user', [PostController::class, 'index']);
 Route::get('posts/{slug}', [PostController::class, 'show'])
     ->name('posts.show');
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
+    
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
