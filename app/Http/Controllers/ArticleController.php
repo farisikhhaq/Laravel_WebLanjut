@@ -14,7 +14,8 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        //
+        $artikel = Article::all();
+        return view('Artikel.index',['artikel'=> $artikel]);
     }
 
     /**
