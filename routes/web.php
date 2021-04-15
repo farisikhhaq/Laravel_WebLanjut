@@ -7,6 +7,9 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\ShelfController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\ArticleController;
+
+Route::resource('articles', [ArticleController::class]);
 
 // use Symfony\Component\Routing\Loader\Configurator\RouteConfigurator;
 
@@ -20,6 +23,10 @@ use Illuminate\Support\Facades\Auth;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+// PRAKTIKUM AWAL- AWAL
+
+
 // // Route::get('/', [PageController::class, 'index']);
 
 // // Route::prefix('/')->group(function () {
@@ -41,18 +48,20 @@ use Illuminate\Support\Facades\Auth;
 
 // Route::get('contact/{no}', [ContactController::class, 'index']);
 
+// PRAKTIKUM AUTH
 
-Route::get('/', [ShelfController::class, 'index']);
 
-Route::prefix('/')->group(function () {
-    Route::get('/preview', [ShelfController::class, 'preview']);
-    Route::get('/team', [ShelfController::class, 'team']);
-    Route::get('/contact', [ShelfController::class, 'contact']);
-});
-Route::get('/user', [PostController::class, 'index']);
-Route::get('posts/{slug}', [PostController::class, 'show'])
-    ->name('posts.show');
+// Route::get('/', [ShelfController::class, 'index']);
+
+// Route::prefix('/')->group(function () {
+//     Route::get('/preview', [ShelfController::class, 'preview']);
+//     Route::get('/team', [ShelfController::class, 'team']);
+//     Route::get('/contact', [ShelfController::class, 'contact']);
+// });
+// Route::get('/user', [PostController::class, 'index']);
+// Route::get('posts/{slug}', [PostController::class, 'show'])
+//     ->name('posts.show');
     
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
