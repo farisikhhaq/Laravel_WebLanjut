@@ -3,13 +3,13 @@
 // use App\Http\Controllers\AboutController;
 // use App\Http\Controllers\ContactController;
 // use App\Http\Controllers\HomeController;
-use App\Http\Controllers\PostController;
-use App\Http\Controllers\ShelfController;
+// use App\Http\Controllers\PostController;
+// use App\Http\Controllers\ShelfController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Auth;
+// use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\ArticleController;
 
-Route::resource('articles', [ArticleController::class]);
+Route::resource('articles', ArticleController::class);
 
 // use Symfony\Component\Routing\Loader\Configurator\RouteConfigurator;
 
