@@ -9,7 +9,7 @@ class Article extends Model
 {
     use HasFactory;
 
-    protected $table = 'weblanjutlaravel';
+    protected $table = 'articles';
 
     protected $fillable = [
         'title',
