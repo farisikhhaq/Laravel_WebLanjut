@@ -11,6 +11,9 @@ class CreateUsersTable extends Migration
      *
      * @return void
      */
+    protected $table = 'user';
+    protected $primaryKey = 'nim';
+
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
